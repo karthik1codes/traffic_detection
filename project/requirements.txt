@@ -1,0 +1,57 @@
+# AI Traffic Management System - Requirements
+
+## Core Dependencies
+- Node.js >= 18.x
+- npm >= 9.x
+
+## Frontend Framework
+- React 18.3.1
+- TypeScript 5.5.3
+- Vite 5.4.2
+
+## UI & Styling
+- Tailwind CSS 3.4.1
+- Lucide React 0.344.0 (Icons)
+
+## Backend & Database
+- Supabase JS Client 2.57.4
+- PostgreSQL (via Supabase)
+
+## AI/ML Simulation
+- YOLO-based vehicle detection (simulated in Edge Function)
+- Traffic signal optimization algorithm
+
+## Features
+- Image upload and analysis
+- Video upload and processing
+- Real-time webcam feed analysis
+- Multi-lane detection (2-4 lanes)
+- Vehicle type classification:
+  - Cars
+  - Trucks
+  - Buses
+  - Motorcycles
+  - Bicycles
+- Traffic congestion assessment (low/medium/high)
+- Signal optimization recommendations
+- Historical analysis tracking
+- Real-time dashboard with metrics
+
+## Development Tools
+- ESLint 9.9.1
+- TypeScript ESLint 8.3.0
+- PostCSS 8.4.35
+- Autoprefixer 10.4.18
+
+## Production Deployment
+This application is production-ready and can be deployed to:
+- Vercel
+- Netlify
+- AWS Amplify
+- Any platform supporting Vite applications
+
+The Supabase backend handles:
+- Database operations (PostgreSQL)
+- Edge Functions for AI processing
+- Real-time data synchronization
+- Row Level Security (RLS) policies
